@@ -1,0 +1,76 @@
+body {
+	font-size: 14px;
+	position: relative;
+}
+
+article {
+	width: 60em;
+	clear: both;
+    float: left;
+}
+
+nav, footer {
+    clear: both;
+    float: left;
+}
+
+section {
+    float: left;
+    clear: both;
+    position: relative;
+}
+
+
+dt {
+    float: left;
+    clear: left;
+    display: list-item;
+    list-style: square;
+    margin:0 0 0 2em;
+    font-family: monospace;
+}
+
+dt + dt {
+    display: inline;
+    clear: none;
+    margin:0 0 0 0;
+}
+
+dt + dt:before {
+    content: ', ';
+}
+
+dd {
+    display: inline;
+    float:left;
+    clear: right;
+    margin: 0 0 0 0;
+}
+
+#hamcrestCoreMatchers {
+    float:left;
+    clear:both;
+    display: block;
+}
+
+#hamcrestCoreMatchers li {
+    float: left;
+    clear: both;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+dd:before {
+    margin: 0 0 0 0.5em;
+    content: ' - ';
+}
+
+
+footer a {
+    font-size: 0.7em;
+}
+
+footer {
+    border: thin;
+    border-color: black;
+}
